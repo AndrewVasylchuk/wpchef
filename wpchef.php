@@ -2751,7 +2751,7 @@ WPChef Team. ', get_bloginfo(), $this->url() );
 					break;
 
 				default:
-					continue;
+					continue 2;
 			}
 
 			$action = $this->ingredient_action_uninstall( $ingredient, $recipe );
